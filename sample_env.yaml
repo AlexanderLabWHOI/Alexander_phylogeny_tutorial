@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - default
+dependencies:
+  - iqtree=2.3.5=hdbdd923_3
+  - muscle
+  - clustalo
+  - matplotlib
