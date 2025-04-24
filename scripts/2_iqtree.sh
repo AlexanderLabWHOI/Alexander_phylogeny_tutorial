@@ -8,4 +8,4 @@
 
 eval "$(conda shell.bash hook)"
 conda activate phylogeny
- iqtree -s all_amts_muscle_curated.fa.fas -bb 1000 -alrt 1000 -m TEST -redo
+ iqtree -s ../sample_data/all_amts_muscle_curated.fa.fas -bb 1000 -alrt 1000 -m TEST -redo

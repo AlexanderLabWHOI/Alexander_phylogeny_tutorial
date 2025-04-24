@@ -10,4 +10,4 @@
 eval "$(conda shell.bash hook)"
 
 conda activate phylogeny
-muscle -align all_amts.fa -output all_amts_muscle.fa.fas
+muscle -align ../sample_data/all_amts.fa -output ../sample_data/all_amts_muscle.fa.fas

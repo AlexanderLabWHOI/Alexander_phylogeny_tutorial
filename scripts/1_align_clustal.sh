@@ -10,4 +10,4 @@
 eval "$(conda shell.bash hook)"
 
 conda activate phylogeny
- clustalo -i all_amts.fa -o all_amts_clustal.fa.fas --threads=16 --force
+ clustalo -i ../sample_data/all_amts.fa -o ../sample_data/all_amts_clustal.fa.fas --threads=16 --force
